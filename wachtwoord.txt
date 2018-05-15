@@ -1,0 +1,3 @@
+usernaam = admin
+wachtwoord = admin
+
