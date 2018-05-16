@@ -56,7 +56,7 @@ if(!$result){
   <h2>log in</h2>
   <h3><?php if(!empty($_SESSION['error'])){ echo $_SESSION['error']; 
                            $_SESSION['error'] = "";               } ?></h3>
-  <form method="POST" action="login.php" >
+  <form method="POST" action="PHP/login.php" >
       
      <div class="form-group">
       <label for="geberuikernaam"></label>
@@ -70,7 +70,7 @@ if(!$result){
       
       <button type="submit" name="registreer" value="Aanmelden" class="btn btn-default">log in </button>
       <div class="form-group">
-      <a href="aanmelden.html" id="gn">nog geen account klik hier</a>
+      <a href="PHP/aanmelden.html" id="gn">nog geen account klik hier</a>
      </div>
   </form>
 

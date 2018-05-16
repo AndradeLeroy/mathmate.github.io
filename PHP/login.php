@@ -51,15 +51,15 @@ if($_SERVER['REQUEST_METHOD'] =='POST'){
             
             $_SESSION['ingelogd'] = "ja";
             $_SESSION['username'] = $ingevoerdeuser;
-            header("location:home page/html/home.php ");
+            header("location:../home page/html/home.php ");
         }
         else{
             $_SESSION['error'] = "gebruikersnaam en/of wachtwoord incorrect";
-            header("Location: index.php");
+            header("Location: ../index.php");
         }
     }
     else{
-        header("location:index.php ");
+        header("location:../index.php ");
         
         
     }
@@ -70,7 +70,7 @@ if($_SERVER['REQUEST_METHOD'] =='POST'){
 
 else{
 
-    header("location:index.php ");
+    header("location:../index.php ");
    
 }
 
