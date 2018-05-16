@@ -1,0 +1,99 @@
+body{
+    overflow-x: hidden;
+}
+#banner{
+    width: 100%;
+    position: fixed;
+   top:0%;
+    z-index: -100;
+}
+
+.navbar{
+    margin-top: 1%;
+    font-size: 130%;
+}
+
+#logo{
+    position: fixed;
+    top:2%;
+    z-index: 5;
+    width: 10%;
+}
+
+.box{
+   
+  border-style: solid;
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+p{
+    margin-left: 50%;
+   
+}
+h1{
+
+ margin-top: 5%;
+  margin-left: 50%; 
+color:#008cff;
+
+}
+h3{
+  margin-left: 10%;
+}
+
+.footer{
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-color: white;  
+    margin-left: -25%;
+}
+
+.row p{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-top: 10%;
+    font-size: 400%;
+    margin-left: 30%;
+    font-weight: 10;
+   
+}
+strong{
+      color:#008cff;
+        
+}
+
+#by{
+    color: white;
+    font-size: 100%;
+    margin-top:20%;
+    margin-left: -50%;
+
+}
+
+.btn-primary.raised {
+	box-shadow: 0 3px 0 0 #007299;
+}
+
+.btn-primary.raised:active, .btn-primary.raised.active {
+	background: #33a6cc;
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+
+.d-block{
+    margin-left: 25%;
+}
+
+.carousel-control-prev{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.carousel-control-next{
+    margin-right: 20%;
+    margin-top: 10%;
+}
