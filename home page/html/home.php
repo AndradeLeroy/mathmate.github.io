@@ -31,16 +31,16 @@
         <a class="nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">presentatie</a>
+        <a class="nav-link" href="../../presentatie/html/index.php">presentatie</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           catogorieën
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">optellen/aftrekken</a>
+          <a class="dropdown-item" href="../../catogorieen/optellen en aftrekken/PHP/index.php">optellen/aftrekken</a>
           <a class="dropdown-item" href="#">rad van fortuin</a>
-          <a class="dropdown-item" href="#">rekenpagina</a>
+          <a class="dropdown-item" href="../../catogorieen/rekena pagina/PHP/index.php">rekenpagina</a>
           <a class="dropdown-item" href="#">pittige rekenpagina</a>
           <div class="dropdown-divider"></div>
            <a class="dropdown-item" href="#">Priemgetallen</a>

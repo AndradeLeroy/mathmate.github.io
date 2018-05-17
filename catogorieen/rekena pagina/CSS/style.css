@@ -9,7 +9,7 @@ body{
 }
 
 .navbar{
-    margin-top: 0%;
+    margin-top: 1%;
     font-size: 130%;
 }
 
@@ -26,9 +26,17 @@ body{
     background-color: white;
     color: black;
     border-color: white;
-}
+    width: auto;
 
-p{
+}
+#page{
+     border-style: solid;
+    background-color: white;
+    color: black;
+    border-color: white;
+    width: auto;
+}
+.footer p{
     margin-left: 50%;
    
 }
@@ -48,12 +56,14 @@ h3{
     background-color: #ededed;
     color: black;
     border-color: white;  
+    margin-left: -25%;
+    margin-top: 3.8%;
 }
 
 .row p{
     font-family: 'Oswald', sans-serif;
     color: white;
-    margin-top: 76%;
+    margin-top: 10%;
     font-size: 400%;
     margin-left: 30%;
     font-weight: 10;
@@ -67,7 +77,7 @@ strong{
 #by{
     color: white;
     font-size: 100%;
-    margin-top: 87%;
+    margin-top:20%;
     margin-left: -50%;
 
 }
@@ -84,13 +94,27 @@ strong{
 }
 
 
-@media  (max-width: 700px) {
-    #banner{
-        width: 200%;
-    }
-  
+#row1{
+    margin-left: 20%;
+    text-align: center;
+
+}
+
+.container p{
+    text-align: center;
+}
+
+
+.container h2{
+    text-align: center;
 }
 
 
 
+@media  (max-width: 700px) {
+    #banner{
+        width: 200%;
+    }
+}
 
+}

@@ -45,7 +45,7 @@ h3{
 
 .footer{
     border-style: solid;
-    background-color: white;
+    background-color: #ededed;
     color: black;
     border-color: white;  
     margin-left: -25%;
@@ -96,4 +96,12 @@ strong{
 .carousel-control-next{
     margin-right: 20%;
     margin-top: 10%;
+}
+
+@media  (max-width: 700px) {
+    #banner{
+        width: 200%;
+    }
+}
+
 }

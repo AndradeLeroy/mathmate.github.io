@@ -28,19 +28,19 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link " href="../../home page/html/home.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link " href="../../../home page/html/home.php">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link disabled" href="#">presentatie</a>
+      <li class="nav-item ">
+        <a class="nav-link" href="../../../presentatie/html/index.php">presentatie</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           catogorieën
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="../../catogorieen/optellen en aftrekken/PHP/index.php">optellen/aftrekken</a>
-          <a class="dropdown-item" href="">rad van fortuin</a>
-          <a class="dropdown-item" href="../../catogorieen/rekena pagina/PHP/index.php">rekenpagina</a>
+          <a class="dropdown-item" href="../../optellen en aftrekken/PHP/index.php">optellen/aftrekken</a>
+          <a class="dropdown-item" href="#">rad van fortuin</a>
+          <a class="dropdown-item disabled active" href="#">rekenpagina</a>
           <a class="dropdown-item" href="#">pittige rekenpagina</a>
           <div class="dropdown-divider"></div>
            <a class="dropdown-item" href="#">Priemgetallen</a>
@@ -73,38 +73,44 @@
 </nav>
 
   
-    
+<div id="page">
 <div class="box">
+     
+     
     
-   
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-50" src="../img/1280x720-en7.jpg" alt="First slide">
-      </div>
-   
-    <div class="carousel-item">
-      <img class="d-block w-50" src="../img/maxresdefault.jpg" alt="Third slide">
+<div class="container">
+  <h2>optellen en aftrekken</h2>
+  <p>Vul hier uw optel en aftrek sommen in</p>
+ <div class="row" id="row1"> 
+<div class="form-group">
+      <label for="usr">Getal:</label>
+      <input type="number" class="form-control" id="usr1">
+    </div> 
+     
+         <div class="col-auto my-1">
+      <label class="mr-sm-2" for="inlineFormCustomSelect">plus of min</label>
+      <select class="custom-select mr-sm-2"  id="choose" id="inlineFormCustomSelect">
+        <option selected>Choose...</option>
+        <option value="1">*</option>
+        <option value="2">:</option>
+      </select>
     </div>
-  
-  <div class="carousel-item">
-      <img class="d-block w-50" src="../img/index.jpg" alt="foruth slide">
-  </div>
+     
+     
+     
+<div class="form-group">
+      <label for="usr">Getal:</label>
+      <input type="number" class="form-control" id="usr2">
     </div>
+     <button type="button" class="btn btn-primary raised" onclick="bereken()">uitrekenen </button>
+</div>   
+  <form>
+    <div class="form-group">
+      <label for="comment">de uitkomst</label>
+      <textarea class="form-control" rows="5" id="demo"></textarea>
     </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+  </form>
+</div>
 </div>
     
     
@@ -113,13 +119,13 @@
 
     
     </div>
-    
+ </div>      
 
 
 
 
 
-
+ <script src="../js/main.js"></script> 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
