@@ -37,7 +37,7 @@ if($_SERVER['REQUEST_METHOD'] =='POST'){
     $ingevoerdeuser =$_POST['username'];
     $ingevoerdeww =$_POST['password'];
     
-    $sql= "SELECT * FROM logingegevens WHERE login_naam = '$ingevoerdeuser'";
+    $sql= "SELECT * FROM gebruikers WHERE username = '$ingevoerdeuser'";
     $result = mysqli_query($conn, $sql);
     
     if($result){
@@ -47,7 +47,7 @@ if($_SERVER['REQUEST_METHOD'] =='POST'){
     
     //controleert of het user en ww goed 
    
-       if($password['wachtwoord'] == $ingevoerdeww){ 
+       if($password['wachtwoord'] == md5($ingevoerdeww)){ 
             
             $_SESSION['ingelogd'] = "ja";
             $_SESSION['username'] = $ingevoerdeuser;

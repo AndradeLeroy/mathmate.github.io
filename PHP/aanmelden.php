@@ -30,7 +30,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
  
 
-                $query = "INSERT INTO logingegevens (mail, login_naam, wachtwoord)
+                $query = "INSERT INTO gebruikers (email, username, wachtwoord)
 
                 VALUES('".$_POST['emailadres']."','".$_POST['gebruikersnaam']."','".$_POST['wachtwoord1']."');";
 
@@ -42,7 +42,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
                 // we voeren de query uit
 
-           header('Location:../index.html');
+           header('Location:../index.php');
 
                 // en we zijn aangemeld..
 
