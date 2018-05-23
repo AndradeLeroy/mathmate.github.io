@@ -81,7 +81,13 @@
    
     <h2>Leonardo van Pisa</h2>
     <h4><i>De rij van Fibonacci</i></h4>
-    <input type="submit" value="Start reeks" onclick="PromptEindgetal()" />
+    
+    <div class="form-group">
+      <label for="usr">Getal:</label>
+      <input type="text" class="form-control" id="usr2">
+    </div>
+    
+    <input type="submit" value="Start reeks" onclick="Eindgetal()" />
 
     <div id="dReeks"></div>
 </div>

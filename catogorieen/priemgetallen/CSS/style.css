@@ -9,7 +9,7 @@ body{
 }
 
 .navbar{
-    margin-top: 1%;
+    margin-top: 10%;
     font-size: 130%;
 }
 
@@ -52,12 +52,13 @@ h3{
 }
 
 .footer{
+   
     border-style: solid;
     background-color: #ededed;
     color: black;
     border-color: white;  
     margin-left: -25%;
-    margin-top: 3.8%;
+    margin-top: 5.5%;
 }
 
 .row p{

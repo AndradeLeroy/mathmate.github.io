@@ -43,7 +43,7 @@
           <a class="dropdown-item" href="../../catogorieen/rekena pagina/PHP/index.php">rekenpagina</a>
           <a class="dropdown-item" href="#">pittige rekenpagina</a>
           <div class="dropdown-divider"></div>
-           <a class="dropdown-item" href="#">Priemgetallen</a>
+           <a class="dropdown-item" href="../../catogorieen/priemgetallen/PHP/index.php">Priemgetallen</a>
           <a class="dropdown-item" href="#">Reeks van fibonacci</a>
         </div>
       </li>
