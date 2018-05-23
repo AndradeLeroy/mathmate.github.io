@@ -54,7 +54,7 @@
         <a class="nav-link " href="#">about</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="../../PHP/uitloggen.php">uitloggen</a>
+        <a class="nav-link " href="../../../PHP/uitloggen.php">uitloggen</a>
       </li>
   
     </ul>
@@ -79,12 +79,12 @@
      
     
 <div class="container">
-  <h2>optellen en aftrekken</h2>
-  <p>Vul hier uw optel en aftrek sommen in</p>
+  <h2> keer en gedeeld door </h2>
+  <p>Vul hier uw keer en deel sommen in</p>
  <div class="row" id="row1"> 
 <div class="form-group">
       <label for="usr">Getal:</label>
-      <input type="number" class="form-control" id="usr1">
+      <input type="text" class="form-control" id="usr1">
     </div> 
      
          <div class="col-auto my-1">
@@ -100,7 +100,7 @@
      
 <div class="form-group">
       <label for="usr">Getal:</label>
-      <input type="number" class="form-control" id="usr2">
+      <input type="text" class="form-control" id="usr2">
     </div>
      <button type="button" class="btn btn-primary raised" onclick="bereken()">uitrekenen </button>
 </div>   
