@@ -39,7 +39,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="../../optellen en aftrekken/PHP/index.php">optellen/aftrekken</a>
-          <a class="dropdown-item" href="#">rad van fortuin</a>
+          <a class="dropdown-item" href="../../rad van fortuin/PHP/index.php">rad van fortuin</a>
           <a class="dropdown-item disabled active" href="#">rekenpagina</a>
           <a class="dropdown-item" href="#">pittige rekenpagina</a>
           <div class="dropdown-divider"></div>
@@ -107,7 +107,7 @@
   <form>
     <div class="form-group">
       <label for="comment">de uitkomst</label>
-      <textarea class="form-control" rows="5" id="demo"></textarea>
+      <textarea class="form-control" readonly class="form-control-plaintext" rows="5" id="demo"></textarea>
     </div>
   </form>
 </div>

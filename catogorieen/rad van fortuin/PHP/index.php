@@ -38,8 +38,8 @@
           catogorieën
         </a>
         <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item disabled active" href="#">optellen/aftrekken</a>
-          <a class="dropdown-item" href="#">rad van fortuin</a>
+          <a class="dropdown-item " href="../../optellen en aftrekken/PHP/index.php">optellen/aftrekken</a>
+          <a class="dropdown-item disabled active" href="#">rad van fortuin</a>
           <a class="dropdown-item" href="../../rekena pagina/PHP/index.php">rekenpagina</a>
           <a class="dropdown-item" href="#">pittige rekenpagina</a>
           <div class="dropdown-divider"></div>
