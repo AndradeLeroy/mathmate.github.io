@@ -32,7 +32,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
                 $query = "INSERT INTO gebruikers (email, username, wachtwoord)
 
-                VALUES('".$_POST['emailadres']."','".$_POST['gebruikersnaam']."','".$_POST['wachtwoord1']."');";
+                VALUES('".$_POST['emailadres']."','".$_POST['gebruikersnaam']."','".md5($_POST['wachtwoord1'])."');";
 
                 // de gegevens kunnen we opvangen door de $_POST te gebruiken met als naam de naam van het formulier
 
