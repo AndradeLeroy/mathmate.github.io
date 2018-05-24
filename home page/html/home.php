@@ -39,8 +39,10 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="../../catogorieen/optellen en aftrekken/PHP/index.php">optellen/aftrekken</a>
           <a class="dropdown-item" href="../../catogorieen/rad van fortuin/PHP/index.php">rad van fortuin</a>
-          <a class="dropdown-item" href="../../catogorieen/rekena pagina/PHP/index.php">rekenpagina</a>
+          <a class="dropdown-item" href="../../catogorieen/rekena pagina/PHP/index.php">keer en deel sommen</a>
           <a class="dropdown-item" href="#">pittige rekenpagina</a>
+          <a class="dropdown-item" href="../../catogorieen/machtenreeks/PHP/index.php">machtenreeks</a>
+          <a class="dropdown-item" href="#">kwadraadreeks</a>
           <div class="dropdown-divider"></div>
            <a class="dropdown-item" href="../../catogorieen/priemgetallen/PHP/index.php">Priemgetallen</a>
           <a class="dropdown-item" href="#">Reeks van fibonacci</a>

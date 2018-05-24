@@ -38,9 +38,9 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="../../optellen en aftrekken/PHP/index.php">optellen/aftrekken</a>
           <a class="dropdown-item" href="../../rad van fortuin/PHP/index.php">rad van fortuin</a>
-          <a class="dropdown-item disabled active" href="#">keer en deel sommen</a>
+          <a class="dropdown-item " href="#">keer en deel sommen</a>
           <a class="dropdown-item" href="#">pittige rekenpagina</a>
-          <a class="dropdown-item" href="../../machtenreeks/PHP/index.php">machtenreeks</a>
+          <a class="dropdown-item disabled active" href="">machtenreeks</a>
           <a class="dropdown-item" href="#">kwadraadreeks</a>
           <div class="dropdown-divider"></div>
            <a class="dropdown-item" href="#">Priemgetallen</a>
@@ -78,32 +78,24 @@
      
      
     
-<div class="container">
-  <h2> keer en gedeeld door </h2>
-  <p>Vul hier uw keer en deel sommen in</p>
- <div class="row" id="row1"> 
-<div class="form-group">
+<div class="container ">
+  <h2> machtenreeks </h2>
+  <p>vul hier um machten in</p>
+ <div class="row justify-content-center " id="row1"> 
+<div class="form-row col-md-6">
       <label for="usr">Getal:</label>
       <input type="text" class="form-control" id="usr1">
     </div> 
+       
      
-         <div class="col-auto my-1">
-      <label class="mr-sm-2" for="inlineFormCustomSelect">plus of min</label>
-      <select class="custom-select mr-sm-2"  id="choose" id="inlineFormCustomSelect">
-        <option selected>Choose...</option>
-        <option value="1">*</option>
-        <option value="2">:</option>
-      </select>
-    </div>
-     
-     
-     
-<div class="form-group">
-      <label for="usr">Getal:</label>
+<div class="form-row col-md-6">
+      <label for="usr">tot de macht:</label>
       <input type="text" class="form-control" id="usr2">
     </div>
+     <div class="row justify-content-center">
      <button type="button" class="btn btn-primary raised" onclick="bereken()">uitrekenen </button>
-</div>   
+    </div>
+    </div>
   <form>
     <div class="form-group">
       <label for="comment">de uitkomst</label>
