@@ -12,11 +12,10 @@
 <body>
 
    
-     <a><img src="../img/logo.png" id="logo" width="20%;"></a> 
+     <a><img src="../img/logo1.png" id="logo" width="20%;"></a> 
  <img src="../img/alphabet-black-and-white-business-256369.jpg" id="banner">
     <div class="row">
-    <div class="col"><p><strong>Math </strong>Mate</p></div>
-    <div class="col"><p id="by"> by Casper a Yustin</p></div>
+
     </div>  
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 

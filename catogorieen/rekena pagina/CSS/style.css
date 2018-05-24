@@ -9,7 +9,7 @@ body{
 }
 
 .navbar{
-    margin-top: 1%;
+    margin-top: 14%;
     font-size: 130%;
 }
 
@@ -17,7 +17,7 @@ body{
     position: fixed;
     top:2%;
     z-index: 5;
-    width: 10%;
+    width: 30%;
 }
 
 .box{

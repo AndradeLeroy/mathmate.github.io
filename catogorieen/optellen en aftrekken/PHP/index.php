@@ -12,11 +12,9 @@
 <body>
 
    
-     <a><img src="../img/logo.png" id="logo" width="20%;"></a> 
+     <a><img src="../img/logo1.png" id="logo" width="20%;"></a> 
  <img src="../img/alphabet-black-and-white-business-256369.jpg" id="banner">
     <div class="row">
-    <div class="col"><p><strong>Math </strong>Mate</p></div>
-    <div class="col"><p id="by"> by Casper a Yustin</p></div>
     </div>  
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
@@ -89,8 +87,8 @@
      
          <div class="col-auto my-1">
       <label class="mr-sm-2" for="inlineFormCustomSelect">plus of min</label>
-      <select class="custom-select mr-sm-2"  id="choose" id="inlineFormCustomSelect">
-        <option selected>Choose...</option>
+      <select class="custom-select mr-sm-2"  id="choose" id="inlineFormCustomSelect" >
+        
         <option value="1">+</option>
         <option value="2">-</option>
       </select>
@@ -107,7 +105,7 @@
   <form>
     <div class="form-group">
       <label for="comment">de uitkomst</label>
-      <textarea class="form-control" readonly class="form-control-plaintext" rows="5" id="demo"></textarea>
+      <textarea class="form-control" readonly class="form-control-plaintext" rows="10" id="demo"></textarea>
     </div>
   </form>
 </div>
