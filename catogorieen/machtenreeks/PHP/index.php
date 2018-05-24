@@ -38,7 +38,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="../../optellen en aftrekken/PHP/index.php">optellen/aftrekken</a>
           <a class="dropdown-item" href="../../rad van fortuin/PHP/index.php">rad van fortuin</a>
-          <a class="dropdown-item " href="#">keer en deel sommen</a>
+          <a class="dropdown-item " href="../../rekena pagina/PHP/index.php">keer en deel sommen</a>
           <a class="dropdown-item" href="#">pittige rekenpagina</a>
           <a class="dropdown-item disabled active" href="">machtenreeks</a>
           <a class="dropdown-item" href="#">kwadraadreeks</a>
