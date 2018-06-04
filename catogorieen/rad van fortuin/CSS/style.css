@@ -16,9 +16,11 @@ body{
 #logo{
     position: fixed;
     top:2%;
-    z-index: 5;
-    width: 50%;
+    z-index: -1;
+    width: 30%;
 }
+
+
 
 .box{
    
@@ -92,6 +94,8 @@ strong{
 	margin-bottom: -3px;
 	margin-top: 3px;
 }
+
+
 
 
 #row1{

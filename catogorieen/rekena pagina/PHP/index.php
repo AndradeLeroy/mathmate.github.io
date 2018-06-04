@@ -41,10 +41,10 @@
           <a class="dropdown-item disabled active" href="#">keer en deel sommen</a>
           <a class="dropdown-item" href="#">pittige rekenpagina</a>
           <a class="dropdown-item" href="../../machtenreeks/PHP/index.php">machtenreeks</a>
-          <a class="dropdown-item" href="#">kwadraadreeks</a>
+          <a class="dropdown-item" href="../../kwadraadreeks/PHP/index.php">kwadraadreeks</a>
           <div class="dropdown-divider"></div>
            <a class="dropdown-item" href="#">Priemgetallen</a>
-          <a class="dropdown-item" href="#">Reeks van fibonacci</a>
+          <a class="dropdown-item" href="../../Fibonacci/PHP/index.php">Reeks van fibonacci</a>
         </div>
       </li>
       <li class="nav-item">
@@ -90,7 +90,6 @@
          <div class="col-auto my-1">
       <label class="mr-sm-2" for="inlineFormCustomSelect">plus of min</label>
       <select class="custom-select mr-sm-2"  id="choose" id="inlineFormCustomSelect">
-        <option selected>Choose...</option>
         <option value="1">*</option>
         <option value="2">:</option>
       </select>
@@ -105,9 +104,8 @@
      <button type="button" class="btn btn-primary raised" onclick="bereken()">uitrekenen </button>
 </div>   
   <form>
-    <div class="form-group">
-      <label for="comment">de uitkomst</label>
-      <textarea class="form-control" readonly class="form-control-plaintext" rows="5" id="demo"></textarea>
+    <div id="demo">
+    
     </div>
   </form>
 </div>

@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 #banner{
     width: 100%;
@@ -9,7 +9,7 @@ body{
 }
 
 .navbar{
-    margin-top: 14%;
+    margin-top: 27%;
     font-size: 130%;
 }
 

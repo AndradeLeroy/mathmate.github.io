@@ -39,12 +39,13 @@
           <a class="dropdown-item " href="../../optellen en aftrekken/PHP/index.php">optellen/aftrekken</a>
           <a class="dropdown-item disabled active" href="#">rad van fortuin</a>
           <a class="dropdown-item" href="../../rekena pagina/PHP/index.php">keer en deel sommen</a>
+        <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">pittige rekenpagina</a>
           <a class="dropdown-item" href="../../machtenreeks/PHP/">machtenreeks</a>
-          <a class="dropdown-item" href="#">kwadraadreeks</a>
+          <a class="dropdown-item" href="../../kwadraadreeks/PHP/index.php">kwadraadreeks</a>
           <div class="dropdown-divider"></div>
            <a class="dropdown-item" href="#">Priemgetallen</a>
-          <a class="dropdown-item" href="#">Reeks van fibonacci</a>
+          <a class="dropdown-item" href="../../Fibonacci/PHP/index.php">Reeks van fibonacci</a>
         </div>
       </li>
       <li class="nav-item">
@@ -78,27 +79,36 @@
      
         <div class="container" style="margin-top:100px;">
         <table class="table text-center">
-            <tr>
-                <td colspan="2"><input id="btnSpinIt" type="submit" value="Spin It" class="input-sm form-control btn-primary" onclick="spinIt()"></td>
+		
+          <tr>
+                <td><input id="btnSpinIt" type="submit" value="Spin It" class="input-sm form-control btn-primary" onclick="SpinIt()"></td>  
+                <td><input id="btnSpinIt" type="submit" value="Spin It" class="input-sm form-control btn-primary" onclick="SpinIt1()"></td>
             </tr>
+           
+            
             <tr>
                 <!--rad 1-->
                 <td>
                     <div class="pointer"></div><div id="rad" class="text-center"></div>
                 </td>
-                
-                <!--rad 2-->
+            
+                 
+                <!--rad 1-->
                 <td>
                     <div class="pointer"></div><div id="rad2" class="text-center"></div>
                 </td>
             </tr>
-            <tr>
-                <td colspan="2"><input id="btnClearIt" type="submit" value="Clear It" class="input-sm form-control btn-danger" onclick="ClearIt()"></td>
-            </tr>
+ 
             <tr>
                 <td><input id="ipNumberRad1" type="text" class="input-sm form-control"></td>
                 <td><input id="ipNumberRad2" type="text" class="input-sm form-control"></td>
             </tr>
+			<tr>
+			<td><input id="btnSpinIt" type="submit" value="optellen" class="btn btn-primary  form-control" onclick="bereken()"> </td>
+			<td><input id="ipNumberRad3" type="text" class="input-sm form-control "  ></td>
+      
+    
+			</tr>
         </table>
     </div> 
     

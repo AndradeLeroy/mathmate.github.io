@@ -42,10 +42,10 @@
           <a class="dropdown-item" href="../../catogorieen/rekena pagina/PHP/index.php">keer en deel sommen</a>
           <a class="dropdown-item" href="#">pittige rekenpagina</a>
           <a class="dropdown-item" href="../../catogorieen/machtenreeks/PHP/index.php">machtenreeks</a>
-          <a class="dropdown-item" href="#">kwadraadreeks</a>
+          <a class="dropdown-item" href="../../catogorieen/kwadraadreeks/PHP/index.php">kwadraadreeks</a>
           <div class="dropdown-divider"></div>
            <a class="dropdown-item" href="../../catogorieen/priemgetallen/PHP/index.php">Priemgetallen</a>
-          <a class="dropdown-item" href="#">Reeks van fibonacci</a>
+          <a class="dropdown-item" href="../../catogorieen/Fibonacci/PHP/index.php">Reeks van fibonacci</a>
         </div>
       </li>
       <li class="nav-item">

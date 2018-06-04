@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 #banner{
     width: 100%;
@@ -9,14 +9,19 @@ body{
 }
 
 .navbar{
-    margin-top: 14%;
+    margin-top: 27%;
     font-size: 130%;
 }
 
+#demo{
+    text-align: center;
+    margin-top: 5%;
+    
+}
 #logo{
     position: fixed;
     top:2%;
-    z-index: 5;
+    z-index: -5;
     width: 30%;
 }
 
@@ -93,6 +98,9 @@ strong{
 	margin-top: 3px;
 }
 
+#btn{
+    margin-top: 5%;
+}
 
 #row1{
    
