@@ -1,46 +1,21 @@
-var teller = 0, getal = 1, eindgetal, interval;
+function bereken() {
+    document.getElementById("demo").innerHTML = "0 <br> 1 <br>";
+    var eindgetal = parseFloat(document.getElementById("usr1").value);
+    var huidiggetal = 1;
+    var voriggetal = 0;
+    var uitkomst;
 
-function Eindgetal() {
-    eindgetal = parseFloat(document.getElementById('usr2').value);
-    if (eindgetal != "") {
-        if ((eindgetal >= 1) && (eindgetal <=250 )) {
-            StartInterval();
-        } else {
-            alert("De ingevoerde eindgetal is niet correct");
-        }
-    } else {
-        alert("Je hebt geen eindgetal ingevoerd!");
+
+    for (var exponent = 1; exponent <= eindgetal; exponent++) {
+
+        uitkomst = voriggetal + huidiggetal;
+        voriggetal = huidiggetal;
+        huidiggetal = uitkomst;
+
+
+        document.getElementById("demo").innerHTML += uitkomst + "<br>";
     }
+
+
+
 }
-
-function StartInterval() {
-    interval = setInterval(function () { BerekenReeks() }, 10);
-}
-
-
-
-
-
-
-
-function BerekenReeks() {
-    if (teller <= eindgetal) {
-        document.getElementById('dReeks').innerHTML += getal + " - ";
-        teller++;
-        var a = 0;
-        var b = 1;
-        var c = a + b;
-        a = b;
-        c = b;
-        
-        
-    } else {
-        clearInterval(interval);
-    }
-}
-
-
-if(getal / 3 == 1 ){
-    document.getElementById('dReeks').innerHTML =  "<h3> </h3>";
-}
-

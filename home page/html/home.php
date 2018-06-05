@@ -10,7 +10,19 @@
     <title>MathMate </title>
 </head>
 <body>
+<?php
+session_start();
+if($_SESSION['ingelogd'] != "ja"){
 
+    header("Location:../../index.php");
+}
+
+
+
+?>
+    
+    
+    
    
      <a><img src="../img/logo1.png" id="logo" width="100%"></a> 
  <img src="../img/alphabet-black-and-white-business-256369.jpg" id="banner">
@@ -99,16 +111,6 @@
     </div>
     
 
-<?php
-session_start();
-if($_SESSION['ingelogd'] != "ja"){
-
-    header("Location:../../index.php");
-}
-
-
-
-?>
 
 
 

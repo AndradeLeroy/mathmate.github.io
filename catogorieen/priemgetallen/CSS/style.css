@@ -9,15 +9,20 @@ body{
 }
 
 .navbar{
-    margin-top: 10%;
+    margin-top: 27%;
     font-size: 130%;
 }
 
+#demo{
+    text-align: center;
+    margin-top: 5%;
+    
+}
 #logo{
     position: fixed;
     top:2%;
-    z-index: 5;
-    width: 10%;
+    z-index: -5;
+    width: 30%;
 }
 
 .box{
@@ -52,13 +57,12 @@ h3{
 }
 
 .footer{
-   
     border-style: solid;
     background-color: #ededed;
     color: black;
     border-color: white;  
     margin-left: -25%;
-    margin-top: 5.5%;
+    margin-top: 3.8%;
 }
 
 .row p{
@@ -94,9 +98,12 @@ strong{
 	margin-top: 3px;
 }
 
+#btn{
+    margin-top: 5%;
+}
 
 #row1{
-    margin-left: 20%;
+   
     text-align: center;
 
 }

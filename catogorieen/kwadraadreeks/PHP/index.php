@@ -12,7 +12,16 @@
 </head>
 
 <body>
+<?php
+session_start();
+if($_SESSION['ingelogd'] != "ja"){
 
+    header("Location:../../index.php");
+}
+
+
+
+?>
 
     <a><img src="../img/logo1.png" id="logo" width="20%;"></a>
     <img src="../img/alphabet-black-and-white-business-256369.jpg" id="banner">
@@ -45,7 +54,7 @@
                         <a class="dropdown-item " href="../../machtenreeks/PHP/index.php">machtenreeks</a>
                         <a class="dropdown-item disabled active" href="#">kwadraadreeks</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Priemgetallen</a>
+                        <a class="dropdown-item" href="../../priemgetallen/PHP/index.php">Priemgetallen</a>
                         <a class="dropdown-item" href="../../Fibonacci/PHP/index.php">Reeks van fibonacci</a>
                     </div>
                 </li>
