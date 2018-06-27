@@ -21,7 +21,7 @@ if($_SESSION['ingelogd'] != "ja"){
 
 ?>
    
-     <a><img src="../img/logo1.png" id="logo" width="20%;"></a> 
+     <a><img src="../img/logo1.png" id="logo" ></a> 
  <img src="../img/alphabet-black-and-white-business-256369.jpg" id="banner">
     <div class="row">
     </div>  
@@ -108,7 +108,7 @@ if($_SESSION['ingelogd'] != "ja"){
      
      
 <div class="form-group">
-      <label for="usr">Getal:</label>
+      <label for="usr">tot:</label>
       <input type="text" class="form-control" id="usr2">
     </div>
      <button type="button" class="btn btn-primary raised" onclick="bereken()">uitrekenen </button>

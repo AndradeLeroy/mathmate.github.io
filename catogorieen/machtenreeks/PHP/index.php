@@ -23,7 +23,7 @@ if($_SESSION['ingelogd'] != "ja"){
 
 ?>
 
-    <a><img src="../img/logo1.png" id="logo" width="20%;"></a>
+    <a><img src="../img/logo1.png" id="logo"></a>
     <img src="../img/alphabet-black-and-white-business-256369.jpg" id="banner">
     <div class="row">
     </div>
@@ -91,10 +91,10 @@ if($_SESSION['ingelogd'] != "ja"){
 
             <div class="container ">
                 <h2> machten reeks </h2>
-                <p>zie hier uw machtenreeks</p>
+                <p>zie hier uw machtenreeks tot 15</p>
 
                 <div class="form-row col-md-12 justify-content-center">
-                    <label for="usr">to welk getal</label>
+                    <label for="usr">vul hier uw getal in</label>
                     <input type="text" class="form-control" id="usr1">
 
 

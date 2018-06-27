@@ -23,7 +23,7 @@ if($_SESSION['ingelogd'] != "ja"){
 
 ?>
 
-    <a><img src="../img/logo1.png" id="logo" width="20%;"></a>
+    <a><img src="../img/logo1.png" id="logo" ></a>
     <img src="../img/alphabet-black-and-white-business-256369.jpg" id="banner">
     <div class="row">
     </div>

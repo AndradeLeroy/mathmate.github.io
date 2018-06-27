@@ -119,10 +119,19 @@ strong{
 
 
 
+
 @media  (max-width: 700px) {
     #banner{
         width: 200%;
     }
+    
+    #logo{
+        width: 60%;
+    }
 }
-
+@media  (min-height: 440px) and (max-width: 500px) {
+    .navbar{
+        margin-top:100%;
+        
+    }
 }

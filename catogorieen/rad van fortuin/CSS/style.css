@@ -113,7 +113,11 @@ strong{
     text-align: center;
 }
 
-
+.container{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap:10%;
+}
 
 
 .pointer {
@@ -155,6 +159,21 @@ strong{
     #banner{
         width: 200%;
     }
+    
+    #logo{
+        width: 60%;
+    }
+    .container{
+        display: block;
+        grid:0%;
+        grid-template-columns: auto;
+    }
+    
+    
 }
-
+@media  (min-height: 440px) and (max-width: 500px) {
+    .navbar{
+        margin-top:100%;
+        
+    }
 }
